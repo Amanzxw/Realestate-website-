@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="realestate.css">
+    <script src="./realestate.js"></script>
+</head>
+<body>
+    <nav>
+        <div id="nav-button">☰</div>
+    <ul id="nav-menu">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </nav>
+
+    <div id="content">
+        <h1>Find the perfect home for sale in Northwest Indiana with our premier real estate website Quadwale</h1>
+        <div id="properties">
+            <div class="property">
+                <img src="https://source.unsplash.com/random/400x300?house" alt="House">
+                <h2>Property 1</h2>
+                <p>Location: 123 Main St, Northwest Indiana</p>
+                <p>Price: $500,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="property">
+                <img src="https://source.unsplash.com/random/400x300?house" alt="House">
+                <h2>Property 2</h2>
+                <p>Location: 456 Elm St, Northwest Indiana</p>
+                <p>Price: $700,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="property">
+                <img src="https://source.unsplash.com/random/400x300?house" alt="House">
+                <h2>Property 3</h2>
+                <p>Location: 789 Oak St, Northwest Indiana</p>
+                <p>Price: $300,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="property">
+                <img src="https://source.unsplash.com/random/400x300?house" alt="House">
+                <h2>Property 4</h2>
+                <p>Location: 321 Pine St, Northwest Indiana</p>
+                <p>Price: $400,000</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        <p><a href="discrimination.html">Discrimination</a></p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+    <footer id="footer">
+        &copy; <span id="year"></span> Your Real Estate Company Name. All rights reserved.
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

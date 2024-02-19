@@ -1,0 +1,154 @@
+
+.work-sans-uniquifier{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav #nav-button {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav #nav-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav #nav-menu li {
+    float: left;
+}
+
+nav #nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav #nav-menu li a:hover {
+    background-color: #111;
+}
+
+nav form {
+    float: right;
+    margin-top: 8px;
+}
+
+nav form input[type="text"], nav form input[type="password"] {
+    width: 100px;
+    height: 15px;
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+nav form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+}
+
+nav form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#content {
+    padding: 20px;
+}
+
+.property {
+    width: 300px;
+    margin: 20px;
+    float: left;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+}
+
+.property h2 {
+    margin: 10px 0;
+}
+
+.property p {
+    margin: 5px 0;
+}
+
+.property button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+}
+
+.property button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 960px) {
+    nav ul li {
+        float: none;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+</style>
+</head>
+<body>
+<div class="content">
+    <!-- Your website content goes here -->
+</div>
+<footer>
+    &copy; 2024 Your Real Estate Company Name. All rights reserved.
+</footer>
